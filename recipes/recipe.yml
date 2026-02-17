@@ -53,6 +53,6 @@ modules:
     - type: script
     scripts:
       - plymouth-set-default-theme bazzite -R
-      - clean-system
+      - chmod +x /usr/bin/clean-system
 
   - type: signing
