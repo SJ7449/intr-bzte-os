@@ -54,5 +54,6 @@ modules:
     scripts:
       - plymouth-set-default-theme bazzite -R
       - chmod +x /usr/bin/clean-system
+      - systemctl enable battery-limit.service
 
   - type: signing
