@@ -17,36 +17,11 @@ modules:
       - discord
       - steam
       - mangohud
-      - fastfetch
-      - python3.14
-      - docker-ce    
-      - docker-ce-cli
-      - containerd.io
-      - docker-buildx-plugin
-      - docker-compose-plugin
-    remove:
-      - firefox
-      - firefox-langpacks
-      - libreoffice-core
-      - libreoffice-calc
-      - libreoffice-draw
-      - libreoffice-impress
-      - libreoffice-writer
-      - libreoffice-langpack-en
-      - kpat
-      - kmahjongg
-      - kmines
-      - kaddressbook
-      - korganizer
-      - khelpcenter
-      - krdc
-      - krfb
 
   - type: default-flatpaks
     notify: true
     system:
       install:
-        - org.mozilla.firefox
         - org.vinegarhq.Sober
         - com.usebottles.bottles
         - org.videolan.VLC
