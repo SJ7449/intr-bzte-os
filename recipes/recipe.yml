@@ -21,6 +21,9 @@ modules:
       - gnome-disk-utility
       - fastfetch
       - python3.14
+      - docker-ce
+      - docker-ce-cli
+      - containerd.io
     remove:
       - firefox
       - firefox-langpacks
@@ -48,6 +51,7 @@ modules:
         - org.vinegarhq.Sober
         - com.usebottles.bottles
         - org.videolan.VLC
+        - com.spotify.Client
       remove:
         - org.kde.elisa
 
