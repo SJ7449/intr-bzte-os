@@ -38,7 +38,6 @@ modules:
       - kmines
       - kaddressbook
       - korganizer
-      - dragon
       - khelpcenter
       - krdc
       - krfb
