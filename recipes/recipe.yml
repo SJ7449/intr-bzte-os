@@ -26,13 +26,6 @@ modules:
       - containerd.io
     remove:
       - firefox
-      - firefox-langpacks
-      - libreoffice-core
-      - libreoffice-calc
-      - libreoffice-draw
-      - libreoffice-impress
-      - libreoffice-writer
-      - libreoffice-langpack-en
 
   - type: default-flatpaks
     notify: true
