@@ -9,7 +9,7 @@ image-version: stable
 modules:
   - type: files
     files:
-      - source: files/system
+      - source: system
         destination: /
 
   - type: rpm-ostree
