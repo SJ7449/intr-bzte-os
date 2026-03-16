@@ -15,6 +15,7 @@ modules:
   - type: rpm-ostree
     install:
       - mangohud
+    remove:
 
   - type: default-flatpaks
     notify: true
@@ -24,7 +25,6 @@ modules:
         - com.usebottles.bottles
         - org.videolan.VLC
         - com.spotify.Client
-        - com.discordapp.Discord
 
   - type: script
     scripts:
