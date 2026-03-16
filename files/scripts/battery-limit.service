@@ -1,0 +1,12 @@
+[Unit]
+Description=Set Battery Charge Limit to 80%
+After=multi-user.target
+
+[Service]
+Type=oneshot
+# This targets BAT0; change to BAT1 if your laptop uses that instead
+ExecStart=/usr/bin/bash -c 'echo 80 > /sys/class/power_supply/BAT0/charge_control_end_threshold || true'
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
