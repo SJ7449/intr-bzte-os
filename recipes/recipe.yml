@@ -15,7 +15,6 @@ modules:
   - type: rpm-ostree
     install:
       - mangohud
-    remove:
 
   - type: default-flatpaks
     notify: true
