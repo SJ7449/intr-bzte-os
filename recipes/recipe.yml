@@ -1,6 +1,6 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
-name: INTR-BZTE-OS
+name: intr-bzte-os
 description: Enter AMD/Intel KDE Bazzite based fork with Bloatware Removed
 
 base-image: ghcr.io/ublue-os/bazzite
