@@ -28,6 +28,7 @@ modules:
 
   - type: script
     scripts:
-      - systemctl enable battery-limit.service
+      - battery-limit.service
+      - clean-system
 
   - type: signing
