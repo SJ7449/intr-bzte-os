@@ -13,7 +13,7 @@ modules:
         destination: /
 
   - type: rpm-ostree
-      - mangohud
+    install:
 
   - type: default-flatpaks
     notify: true
