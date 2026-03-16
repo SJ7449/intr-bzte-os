@@ -1,6 +1,5 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
-
 name: intr-bzte-os
 description: Enter AMD/Intel KDE Bazzite based fork with Bloatware Removed
 
@@ -25,7 +24,6 @@ modules:
       - containerd.io
       - docker-buildx-plugin
       - docker-compose-plugin
-      
     remove:
       - firefox
       - firefox-langpacks
