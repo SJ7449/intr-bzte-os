@@ -16,7 +16,7 @@ modules:
     install:
       - mangohud
 
-  - type: default-flatpaks
+  - type: default-flatpaks@v1
     notify: true
     system:
       install:
@@ -24,6 +24,7 @@ modules:
         - com.usebottles.bottles
         - org.videolan.VLC
         - com.spotify.Client
+        - com.discordapp.Discord
 
   - type: script
     scripts:
