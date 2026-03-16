@@ -1,11 +1,6 @@
 ---
-# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json      - firefox-langpacks
-      - libreoffice-core
-      - libreoffice-calc
-      - libreoffice-draw
-      - libreoffice-impress
-      - libreoffice-writer
-      - libreoffice-langpack-en
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+
 name: intr-bzte-os
 description: Enter AMD/Intel KDE Bazzite based fork with Bloatware Removed
 
