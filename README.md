@@ -1,8 +1,8 @@
-INTR-BZTE-0S is a spin off of Linux Bazzite standing formally for Enter to Bazzite Operating System (shortened as INTR-BZTE-0S for minimization)
+INTR-BZTE-0S is a spin off of Linux Bazzite standing formally for Enter to Bazzite Operating System
 
 This version has support for Gaming beginners installing Roblox, Bottles, Steam, Discord, and removing various KDE Bazzite bloatware minimizing resource usage, with direct out of box setting Firefox from Flatpak as default browser removing the first time pop-up many experience on first boot of Firefox.
 
-Based off of Linux KDE Bazzite which is based off of Fedora Immutable Atomic system which does not allow direct modification to system files unlike many distros.
+Based off of Linux KDE Bazzite which is based off of Fedora Immutable Atomic system which does not allow direct modification to system files unlike many distros, but has the best support for high performance. Pure performance on budget systems, recommended for beginner-intermediate tech problem-solvers.
 
 # INTR-Bazzite-0S &nbsp; [![bluebuild build badge](https://github.com/sj7449/intr-bazzite-0s/actions/workflows/build.yml/badge.svg)](https://github.com/sj7449/intr-bazzite-0s/actions/workflows/build.yml)
 
