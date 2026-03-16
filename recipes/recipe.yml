@@ -33,14 +33,6 @@ modules:
       - libreoffice-impress
       - libreoffice-writer
       - libreoffice-langpack-en
-      - kpat
-      - kmahjongg
-      - kmines
-      - kaddressbook
-      - korganizer
-      - khelpcenter
-      - krdc
-      - krfb
 
   - type: default-flatpaks
     notify: true
