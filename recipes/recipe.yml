@@ -1,7 +1,7 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 name: intr-bzte-os
-description: Enter AMD KDE Bazzite based fork with Bloatware Removed
+description: Enter AMD build of KDE Bazzite based fork with Bloatware Removed
 
 base-image: ghcr.io/ublue-os/bazzite
 image-version: stable 
@@ -15,6 +15,7 @@ modules:
   - type: rpm-ostree
     install:
       - mangohud
+      - corectrl
 
   - type: default-flatpaks@v1
     notify: true
@@ -25,6 +26,11 @@ modules:
         - org.videolan.VLC
         - com.spotify.Client
         - com.discordapp.Discord
+        - com.heroicgameslauncher.hgl
+        - org.winehq.Wine
+        - com.obsproject.Studio
+        - org.libretro.RetroArch
+        - io.github.benjamimgois.goverlay
 
   - type: script
     scripts:
