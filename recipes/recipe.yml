@@ -28,6 +28,6 @@ modules:
 
   - type: script
     scripts:
-      - setup.sh
+      - scripts/setup.sh
 
   - type: signing
