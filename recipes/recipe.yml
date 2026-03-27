@@ -28,7 +28,6 @@ modules:
 
   - type: script
     scripts:
-      - battery-limit.service
-      - clean-system
+      - setup.sh
 
   - type: signing
